@@ -1,13 +1,13 @@
-required_relative './enumerable.rb'
+require_relative './enumerable'
 
 class MyList
-    include Enumerable
+  include Enumerable
 
-    def initialize(*list)
-        @list = list
-    end    
+  def initialize(*list)
+    @list = list
+  end
 
-    def each
-        @list.each { |x| yield x }
-    end
+  def each(&block)
+    @list.each(&block)
+  end
 end

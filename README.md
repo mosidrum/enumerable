@@ -30,7 +30,7 @@
 
 # 📖 Enumerable <a name="about-project"></a>
 
-**Enumerable** project helps us learn how to use a module inside of a class..
+**Enumerable** project helps us learn how to use a module inside of a class.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,7 +73,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  git clone https://github.com/Mofuhidy/decode-morse-code.git
+  git clone https://github.com/mosidrum/enumerable.git
 ```
 
 ### Install
@@ -81,7 +81,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```bash
-  cd decode-morse-code
+  cd enumerable
   bundle install
 ```
 
@@ -111,8 +111,10 @@ it will install the required gemfile for running the project
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add Database to store recent message**
-- **Add Ui**
+- implement:
+  #max
+  #min
+  #sort
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
